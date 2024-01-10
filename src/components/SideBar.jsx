@@ -1,0 +1,20 @@
+
+import SocialNetworks from "./SocialNetworks";
+import Avatar from "../img/foto-renata.png";
+import '../styles/components/sidebar.sass';
+import InformationContainer from "./InformationContainer";
+
+
+const SideBar = () => {
+  return (
+    <aside id='sidebar'>
+      <img src={Avatar} alt="Foto da Renata" />
+      <p className="title">Desenvolvedora</p>
+      < SocialNetworks />
+      <InformationContainer/>
+      <a href="" className="btn">dowload curriculo</a>
+    </aside>
+  )
+};
+
+export default SideBar;

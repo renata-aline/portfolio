@@ -1,15 +1,36 @@
 @use '../variables'
 
 #portfolio
+
     display: flex
     flex-wrap: wrap
-    padding: 3rem
+    padding: 1rem
     gap: 3rem
+
+    // @media (min-width: 320px)
+    //     background-color: aquamarine
+        
+
+    // @media (min-width: 768px)
+    //     background-color: gray
+
+    @media (min-width: 1024px)
+        // background-color: blue
+        padding: 3rem
+        
 
     h1
         width: 100%
-        font-size: 5rem
-        margin-bottom: 4rem
+        text-align: center
+        font-size: 2rem
+        margin-bottom: 2rem
         background: variables.$gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
+
+        @media (min-width: 768px)
+            font-size: 2.75rem
+
+        @media (min-width: 1024px)
+            font-size: 4rem
+            margin-bottom: 4rem

@@ -3,58 +3,54 @@ import "../styles/components/projectscontainer.sass";
 const projects = [
   {
     id: "1",
-    titulo: "teste",
-    capa: "../img/pl.jpg",
+    titulo: "PL Contabilidade",
+    descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS,",
+    capa: "portifolio/public/assets/pll.png",
     link: "https://renata-aline.github.io/pl-contabilidade/",
   },
   {
-    id: "1",
+    id: "2",
     titulo: "teste",
-    capa: "../img/pl.jpg",
+    descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS",
+    capa: "portifolio/public/assets/pll.png",
     link: "https://renata-aline.github.io/pl-contabilidade/",
   },
   {
-    id: "1",
+    id: "3",
     titulo: "teste",
-    capa: "../img/pl.jpg",
+    descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS",
+    capa: "portifolio/public/assets/pll.png",
     link: "https://renata-aline.github.io/pl-contabilidade/",
   },
 
-]
 
-
-
-
-
-
+];
 
 export const ProjectsContainer = () => {
   return (
     <section className="projects-container">
       <h2>projetos</h2>
-      {/* <div className="projects-grid">
+      <div className="projects-grid">
         {projects.map((project) => (
-          <div className="projects-card" id={project.id}
-          key={project.id}  >
-          
-          <div>
+          <div className="projects-card">
+            {/* id={project.id} key={project.id}  */}
             <h3>{project.titulo}</h3>
-            src={project.capa}
-            <a
-              target ="_blank"
-              href={project.link}
-              
-              >
+            <p>{project.descricao}</p>
+
+            <img src={project.capa} alt="foto" />
+            <a target="_blank" href={project.link} className="button">
+              ver projeto
             </a>
           </div>
-
-          </div>
         ))}
+      </div>
 
-      </div> */}
-      <p></p>
-      <a target="_blank" href=" https://github.com/renata-aline" className="btn">
-        ver projetos
+      <a
+        target="_blank"
+        href=" https://github.com/renata-aline"
+        className="btn"
+      >
+        Mais projetos
       </a>
     </section>
   );

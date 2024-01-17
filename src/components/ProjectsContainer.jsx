@@ -5,23 +5,23 @@ const projects = [
     id: "1",
     titulo: "PL Contabilidade",
     descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS,",
-    capa: "portifolio/public/assets/pll.png",
+    capa: "portifolio/public/assets/pl.png",
     link: "https://renata-aline.github.io/pl-contabilidade/",
   },
   {
     id: "2",
-    titulo: "teste",
-    descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS",
-    capa: "portifolio/public/assets/pll.png",
-    link: "https://renata-aline.github.io/pl-contabilidade/",
+    titulo: "Mais Bela",
+    descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS, SASS",
+    capa: "portifolio/public/assets/mais-bela.png",
+    link: "https://renata-aline.github.io/MaisBela/",
   },
-  {
-    id: "3",
-    titulo: "teste",
-    descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS",
-    capa: "portifolio/public/assets/pll.png",
-    link: "https://renata-aline.github.io/pl-contabilidade/",
-  },
+  // {
+  //   id: "3",
+  //   titulo: "teste",
+  //   descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS",
+  //   capa: "portifolio/public/assets/mais-bela1.png",
+  //   link: "https://renata-aline.github.io/pl-contabilidade/",
+  // },
 
 
 ];

@@ -5,14 +5,14 @@ const projects = [
     id: "1",
     titulo: "PL Contabilidade",
     descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS,",
-    capa: "portifolio/public/assets/pl.png",
+    capa: "/portifolio/public/assets/pl.png",
     link: "https://renata-aline.github.io/pl-contabilidade/",
   },
   {
     id: "2",
     titulo: "Mais Bela",
     descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS, SASS",
-    capa: "portifolio/public/assets/mais-bela.png",
+    capa: "/portifolio/public/assets/mais-bela.png",
     link: "https://renata-aline.github.io/MaisBela/",
   },
   // {

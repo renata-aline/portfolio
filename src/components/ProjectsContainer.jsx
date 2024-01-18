@@ -1,36 +1,36 @@
 import "../styles/components/projectscontainer.sass";
 
-// const projects = [
-//   {
-//     id: "1",
-//     titulo: "PL Contabilidade",
-//     descricao:
-//       "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS,",
-//     capa: "portifolio/assets/pl.png",
-//     link: "https://renata-aline.github.io/pl-contabilidade/",
-//   },
-//   {
-//     id: "2",
-//     titulo: "Mais Bela",
-//     descricao:
-//       "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS, SASS",
-//     capa: "portifolio/assets/mais-bela.png",
-//     link: "https://renata-aline.github.io/MaisBela/",
-//   },
+const projects = [
+  {
+    id: "1",
+    titulo: "PL Contabilidade",
+    descricao:
+      "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS,",
+    capa: "assets/pl.png",
+    link: "https://renata-aline.github.io/pl-contabilidade/",
+  },
+  {
+    id: "2",
+    titulo: "Mais Bela",
+    descricao:
+      "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS, SASS",
+    capa: "assets/mais-bela.png",
+    link: "https://renata-aline.github.io/MaisBela/",
+  },
   // {
   //   id: "3",
   //   titulo: "teste",
   //   descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS",
-  //   capa: "portifolio/public/assets/mais-bela1.png",
+  //   capa: "portfolio/public/assets/mais-bela1.png",
   //   link: "https://renata-aline.github.io/pl-contabilidade/",
   // },
-// ];
+];
 
 export const ProjectsContainer = () => {
   return (
     <section className="projects-container">
       <h2>projetos</h2>
-      {/* <div className="projects-grid">
+      <div className="projects-grid">
         {projects.map((project) => (
           <div className="projects-card" id={project.id} key={project.id}>
             <h3>{project.titulo}</h3>
@@ -41,7 +41,7 @@ export const ProjectsContainer = () => {
             </a>
           </div>
         ))}
-      </div> */}
+      </div>
 
       <a
         target="_blank"

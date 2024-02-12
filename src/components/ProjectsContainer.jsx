@@ -6,7 +6,7 @@ const projects = [
     titulo: "PL Contabilidade",
     descricao:
       "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS,",
-    capa: "assets/pl.png",
+    capa: "/portfolio/assets/pl.png",
     link: "https://renata-aline.github.io/pl-contabilidade/",
   },
   {
@@ -14,16 +14,16 @@ const projects = [
     titulo: "Mais Bela",
     descricao:
       "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS, SASS",
-    capa: "assets/mais-bela.png",
+    capa: "/portfolio/assets/mais-bela.png",
     link: "https://renata-aline.github.io/MaisBela/",
   },
-  // {
-  //   id: "3",
-  //   titulo: "teste",
-  //   descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS",
-  //   capa: "portfolio/public/assets/mais-bela1.png",
-  //   link: "https://renata-aline.github.io/pl-contabilidade/",
-  // },
+  {
+    id: "3",
+    titulo: "Barber shop",
+    descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, SASS",
+    capa: "portfolio/assets/barber.png",
+    link: "https://renata-aline.github.io/barber-shop/",
+  },
 ];
 
 export const ProjectsContainer = () => {

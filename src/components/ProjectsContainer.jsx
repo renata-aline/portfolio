@@ -21,7 +21,7 @@ const projects = [
     id: "3",
     titulo: "Barber shop",
     descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, SASS",
-    capa: "portfolio/assets/barber.png",
+    capa: "/portfolio/assets/barber.png",
     link: "https://renata-aline.github.io/barber-shop/",
   },
 ];
@@ -36,7 +36,7 @@ export const ProjectsContainer = () => {
             <h3>{project.titulo}</h3>
             <p>{project.descricao}</p>
             <img src={project.capa} alt="foto" />
-            <a target="_blank" href={project.link} className="button">
+            <a target="_blank"rel="noreferrer" href={project.link} className="button">
               ver projeto
             </a>
           </div>

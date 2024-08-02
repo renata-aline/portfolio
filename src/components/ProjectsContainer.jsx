@@ -3,11 +3,11 @@ import "../styles/components/projectscontainer.sass";
 const projects = [
   {
     id: "1",
-    titulo: "PL Contabilidade",
+    titulo: "Next Destination",
     descricao:
-      "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT, REACTJS,",
-    capa: "/portfolio/assets/pl.png",
-    link: "https://renata-aline.github.io/pl-contabilidade/",
+      "Tecnologias utilizadas no projeto. HTML5, CSS3, JAVASCRIPT,",
+    capa: "/portfolio/assets/destination.png",
+    link: "https://renata-aline.github.io/next-destination/",
   },
   {
     id: "2",
@@ -23,6 +23,13 @@ const projects = [
     descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, SASS",
     capa: "/portfolio/assets/barber.png",
     link: "https://renata-aline.github.io/barber-shop/",
+  },
+  {
+    id: "4",
+    titulo: "Layout Air",
+    descricao: "Tecnologias utilizadas no projeto. HTML5, CSS3, SASS",
+    capa: "/portfolio/assets/layout-air.png",
+    link: "https://renata-aline.github.io/layout_dia/",
   },
 ];
 

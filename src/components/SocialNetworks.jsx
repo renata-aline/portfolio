@@ -25,11 +25,11 @@ const SocialNetworks = () => {
     <section id="social-networks">
       {socialNetworks.map((network) => (
         <a
-          target="_blank"
+        target="_blank"
           href={network.link}
           className="social-btn"
           id={network.name}
-          key={network.name}
+          key={network.name} rel="noreferrer"
         >
           {network.icon}
         </a>

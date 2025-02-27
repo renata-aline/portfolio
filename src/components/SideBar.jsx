@@ -11,7 +11,7 @@ const SideBar = () => {
       <SocialNetworks />
       <InformationContainer />
       <a
-        href="https://drive.google.com/file/d/1Vb3D6OCiSsYlqJYlBhgAttOVx8v_xUfV/view?usp=sharing"
+        href="https://drive.google.com/file/d/11XxhJUBHF8FJrxlHIKOdXlzafwIazP7u/view?usp=drive_link "
         target="_blank"
         rel="noreferrer"
         className="btn"
